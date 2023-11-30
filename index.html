@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/horaire.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/acceuil.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div>
+        <header>
+            <img id="logo" src="images/LogoVoyage.png" alt=""> 
+            <h1>Agence de voyage Maisonneuve</h1>
+            <input class="recherche" type="text" placeholder="Rechercher">
+        <label id="burger" for="chk_burger">
+            <img class="burger" src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000000" alt="menu" width="32" height="32">
+        </label> 
+        <input type="checkbox" id="chk_burger">    
+            <nav class="navigation">
+                <a href="#acceuil">Acceuil</a>
+                <a href="#horaire">Horaire</a>
+                <a href="#inscription">Inscription</a>
+                <a href="#article">Articles</a>
+                <a href="#video">Video</a>
+                <a href="#galerie">Galerie</a>
+                <a href="#contact">Nous contacter</a>
+            </nav>
+        </header>
+    </div>
+        <div>
+            <section id="acceuil">
+                <h2>Acceuil</h2>
+                <p id="auteur">Crée par Rémy Roger</p>
+                    <p>582-1W1 – Mise en page Web</p>
+                    <p>Techniques d’intégration multimédia</p>
+                    <p>Collège de Maisonneuve</p>
+                    <p>Automne 2023</p>
+            </section>
+        </div>
+        <div>
+            <section id="horaire">
+                <h2>Horaire</h2>
+                <p>Fermé Samedi et Dimanche</p>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>LUN</th>
+                        <th>MAR</th>
+                        <th>MER</th>
+                        <th>JEU</th>
+                        <th>VEND</th>
+                    </tr>
+                    <tr>
+                        <th>8h</th>
+                        <td></td>
+                        <td></td>
+                        <td>1M1</td>
+                        <td>1W1</td>
+                        <td>1M1</td>
+                    </tr>
+                    <tr>
+                        <th>9h</th>
+                        <td>1W1</td>
+                        <td></td>
+                        <td>1M1</td>
+                        <td>1W1</td>
+                        <td>1M1</td>
+                    </tr>
+                    <tr>
+                        <th>10h</th>
+                        <td>1W1</td>
+                        <td></td>
+                        <td>1M1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>11h</th>
+                        <td>1W1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1J1</td>
+                    </tr>
+                    <tr>
+                        <th>12h</th>
+                        <td></td>
+                        <td class="pause">Pause</td>
+                        <td>1M2</td>
+                        <td class="pause">Pause</td>
+                        <td>1J1</td>
+                    </tr>
+                    <tr>
+                        <th>13h</th>
+                        <td></td>
+                        <td class="pause">Pause</td>
+                        <td>1M2</td>
+                        <td class="pause">Pause</td>
+                        <td>1J1</td>
+                    </tr>
+                    <tr>
+                        <th>14h</th>
+                        <td></td>
+                        <td>1M2</td>
+                        <td>1M2</td>
+                        <td class="volley">Volley</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>15h</th>
+                        <td>1J1</td>
+                        <td>1M2</td>
+                        <td></td>
+                        <td class="volley">Volley</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>16h</th>
+                        <td>1J1</td>
+                        <td>1M2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>17h</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <div>
+            <section id="inscription">
+                <h2>Inscription</h2>
+                <label class="form__nom" for="">Nom <input type="text"></label>
+                <label class="form__prenom" for="">Prénom <input type="text"></label>
+                <fieldset id="langage">
+                    <legend>Langage</legend>
+                    <label for="chk__html"><input id="chk__html" type="checkbox" id=""></label>
+                    <label for="">CSS <input type="checkbox"></label>
+                    <label for="">JS <input type="checkbox"></label>
+                    <label for="">PHP <input type="checkbox"></label>
+                    <label for="">MySQL <input type="checkbox"></label>
+                    <label for="">Word Press<input type="checkbox"></label>    
+                    </fieldset>
+                    <fieldset>
+                    <legend>Age</legend>
+                    <label for="rad__1">11-15</label>
+                    <input type="radio" name="">
+                    <label for="rad__1">16-18</label>
+                    <input type="radio" name="">
+                    <label for="rad__1">18-30</label>
+                    <input type="radio" name="">
+                    <label for="rad__1">30+</label>
+                    <input type="radio" name="">
+                    <label for="rad__1">65+</label>
+                    <input type="radio" name="">
+                </fieldset>
+            </section>
+
+        </div>
+        <div>
+            <section id="article">
+                <div class="row__article">
+                    <div class="colonne__article">
+                        <img src="images/voyage1.jpg" alt="">
+                        <p>image d'un de nos avions</p>
+                    </div>
+                    <div class="colonne__article">
+                        <img src="images/voyage2.jpg" alt="">
+                        <p>Voyage n'importe ou avec notre agence</p>
+                    </div>
+                    <div class="colonne__article">
+                        <img src="images/voyage3.jpg" alt="">
+                        <p>voyager a tres bas prix</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section id="video">
+                <h2>Video</h2>
+            </section>
+        </div>
+        <div>
+            <section id="galerie">
+                <h2>Galerie</h2>
+            </section>
+        </div>
+        <div>
+            <footer id="contact">
+                <div class="row__contact">
+                    <div class="colonne__contact">
+                        <p class="soustitre">Adresse</p>
+                        <div class="info">
+                            <p>3800 Rue Sherbrooke Est</p>
+                            <p>H1K 2I3</p>
+                        </div>
+                    </div>
+                    <div class="colonne__contact">
+                        <p class="soustitre">Réseaux Sociaux</p>
+                        <div class="reseau">
+                            <div class="info">
+                                <img src="images/facebook_32.png" alt="">
+                                <img src="images/instagram_32.png" alt="">
+                                <img src="images/youtube_32.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colonne__contact">
+                        <p class="soustitre">Liens Importants</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delen
+                            iti consequuntur tempore laudantium nemo tenetur cumque optio aperiam.
+                            Quae nobis, fugiat perspiciatis obcaecati earum suscipit voluptatum! V
+                            ero, mollitia officia. Fugit, consectetur!</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+</html>

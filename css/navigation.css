@@ -1,0 +1,57 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigation{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    gap: 15px;
+    padding: 8px;
+    transform: translateY(-500%);
+    transition: transform .50s;
+    
+
+}
+.navigation a {
+    flex-wrap: wrap;
+    color:white;
+    text-decoration: none;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+#burger{
+    display: flex;
+    margin-left: auto;
+    align-self: flex-end;
+}
+#chk_burger{
+    display: none;
+}
+#chk_burger:checked ~ .navigation{
+    transform : translateY(100%);
+    
+}
+#logo{
+    width: 150px;
+    height: 150px;  
+}
+a:hover{
+    background-color:greenyellow
+}
+h1{
+    margin-bottom: auto;
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+}
+.recherche{
+    align-self: center;
+    margin-left: 15px;
+    height: 25px;
+      
+}

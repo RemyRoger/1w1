@@ -1,0 +1,20 @@
+.form__nom{
+    width: 200px;
+}
+.form__prenom{
+    width: 200px;
+}
+
+#inscription{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+#langage{
+
+    
+}
+

@@ -1,0 +1,15 @@
+#article{
+    
+}
+.row__article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.colonne__article{
+    display: flex;
+    border: 1px solid white;
+    flex: 33%;
+    height: 300px;
+    min-width: 366px;
+    flex-direction: column;
+}

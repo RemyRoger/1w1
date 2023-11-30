@@ -1,0 +1,18 @@
+#horaire{
+    display: flex;
+    flex-wrap: wrap;
+}
+table{
+    background-color: rgba(255, 0, 0, 0.685);
+    min-width:70% ;
+    height: 300px;
+    font-size: 30px;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+th{
+    border: 1px solid black;
+}
