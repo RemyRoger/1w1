@@ -1,0 +1,21 @@
+.galerie__img{
+    /*filter: grayscale(100%);
+}
+.galerie__img:hover{
+    filter: grayscale(0);
+    box-shadow: 5px 5px 5px black;*/
+}
+.row__galerie{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.colonne__galerie{
+    display: flex;
+    border: 1px solid white;
+    flex: 33%;
+    height: 300px;
+    gap: 10px;
+    max-width: 300px;
+    flex-direction: column;
+}

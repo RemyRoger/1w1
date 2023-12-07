@@ -48,6 +48,9 @@ h1{
     margin-bottom: auto;
     font-size: 50px;
     font-family: "Pacifico", cursive;
+    text-shadow: 3px 3px 3px rgb(66, 65, 65);
+    display: flex;
+    flex-wrap: wrap;
 }
 .recherche{
     align-self: center;
