@@ -47,7 +47,7 @@ a:hover{
 }
 h1{
     margin-bottom: auto;
-    font-size: 50px;
+    font-size: clamp(3.5rem, 2.5vw, 2rem);
     font-family: "Pacifico", cursive;
     text-shadow: 3px 3px 3px rgb(66, 65, 65);
     display: flex;

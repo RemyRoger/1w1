@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/acceuil.css">
     <link rel="stylesheet" href="css/article.css">
     <link rel="stylesheet" href="css/galerie.css">
+    <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +22,7 @@
 </head>
 <body>
     
-    <div>
+    <div class="index">
         <header>
             <img id="logo" src="images/LogoVoyage.png" alt=""> 
             <h1>Agence de voyage Maisonneuve</h1>
@@ -31,7 +32,7 @@
         </label> 
         <input type="checkbox" id="chk_burger">    
             <nav class="navigation">
-                <a href="#acceuil">Acceuil</a>
+                <a href="#accueil">Accueil</a>
                 <a href="#horaire">Horaire</a>
                 <a href="#inscription">Inscription</a>
                 <a href="#article">Articles</a>
@@ -42,8 +43,8 @@
         </header>
     </div>
         <div>
-            <section id="acceuil">
-                <h2>Acceuil</h2>
+            <section id="accueil">
+                <h3>Accueil</h3>
                 <p id="auteur">Crée par Rémy Roger</p>
                     <p>582-1W1 – Mise en page Web</p>
                     <p>Techniques d’intégration multimédia</p>
@@ -55,8 +56,8 @@
         </div>
         <div>
             <section id="horaire">
-                <h2>Horaire</h2>
-                <p>Fermé Samedi et Dimanche</p>
+                <h2>Horaire d'ouverture</h2>
+                <p id="horaire__sousTitre"></p>
                 <table>
                     <tr>
                         <th></th>
@@ -181,16 +182,29 @@
         </div>
         <div>
             <section id="article">
-                <img width="450" height="300" src="images/carteAirMiles.png" alt="">
-                <p>14,99$/mois</p>
+                <div class="row__article">
+                    <div class="colonne__article">
+                        <img width="300" height="200" src="images/carteAirMiles.png" alt="">
+                        <p>Devenez membre pro avec la carte pour seulement 14,99$ par mois</p>
+                    </div>
+                    <div class="colonne__article">
+                        <img width="500" height="250" src="images/articles2.jpg" alt="">
+                        <p>A partir de seulement 9,99$ par mois nous pouvons mettre vos bagages en VIP</p>
+                    </div>
+                </div>
             </section>
         </div>
         <div>
             <section id="video">
-                <h2>Video</h2>
-                <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
-            </section>
+                <div class="video">
+                    <iframe width="355" height="315" src="https://www.youtube.com/embed/Rx7VBDrGyDQ?si=TbLXegg6S_SL5vPO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="355" height="315" src="https://www.youtube.com/embed/W0PrnBQs_W4?si=f8UmJgBAQQHEGgqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="355" height="315" src="https://www.youtube.com/embed/gLYph8-3c18?si=XAkqQ70-G95EKdKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
         </div>
         <div>
             <section id="galerie">
@@ -198,27 +212,27 @@
                 <div class="row__galerie">
                     <div class="colonne__galerie">
                         <img class="galerie__img" src="images/voyage1.jpg" alt="">
-                        <p>image d'un de nos avions</p>
+                        <p>Image d'un de nos avions</p>
                     </div>
                     <div class="colonne__galerie">
                         <img class="galerie__img" src="images/voyage2.jpg" alt="">
-                        <p>Voyage n'importe ou avec notre agence</p>
+                        <p>Voyager n'importe où avec notre Agence</p>
                     </div>
                     <div class="colonne__galerie">
                         <img class="galerie__img" src="images/voyage3.jpg" alt="">
-                        <p>voyager a tres bas prix</p>
+                        <p>Voyager très bas prix</p>
                     </div>
                     <div class="colonne__galerie">
                         <img class="galerie__img" src="images/voyage4.jpg" alt="">
-                        <p>voyager a tres bas prix</p>
+                        <p>Bas prix pour enfants</p>
                     </div>
                     <div class="colonne__galerie">
                         <img class="galerie__img" src="images/voyage5.jpg" alt="">
-                        <p>voyager a tres bas prix</p>
+                        <p>Plus de 500 employées</p>
                     </div>
                     <div class="colonne__galerie">
                         <img class="galerie__img" src="images/voyage6.jpg" alt="">
-                        <p>voyager a tres bas prix</p>
+                        <p>Devenez membre du personnel</p>
                     </div>
                 </div>
             </section>

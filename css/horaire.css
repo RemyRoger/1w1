@@ -1,6 +1,7 @@
 #horaire{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 table{
     background-color: rgba(255, 0, 0, 0.685);
@@ -15,4 +16,9 @@ td{
 }
 th{
     border: 1px solid black;
+}
+#horaire__sousTitre{
+    display: flex;
+    padding-top: 25vh;
+    font-size: 35px;
 }

@@ -1,6 +1,4 @@
-#article{
-    
-}
+
 
 .row__article{
     display: flex;
@@ -8,7 +6,7 @@
 }
 .colonne__article{
     display: flex;
-    /*border: 1px solid white;*/
+    
     flex: 33%;
     height: 300px;
     min-width: 366px;
